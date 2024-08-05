@@ -1,0 +1,122 @@
+#about-us h2 {
+    text-align: center;
+    margin: 5vh 0;
+    font-size: 3rem;
+}
+
+#about-us p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#about-us ul {
+    display: flex;
+    list-style: none;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 40vh;
+}
+
+#about-us a {
+    text-decoration: none;
+    color: linen;
+}
+
+#about-us i {
+    margin-right: 5px;
+}
+
+#about-us li:nth-of-type(1) i {
+    background: blue;
+    background-clip: text;
+    color: transparent;
+}
+
+#about-us li:nth-of-type(2) i {
+    background: linear-gradient(rgb(63, 0, 134), rgb(165, 0, 110), red, rgb(201, 114, 0), yellow);
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+#about-us li:nth-of-type(3) i {
+    background-color: rgb(200, 0, 0);
+    background-clip: text;
+    color: transparent;
+}
+
+#about-us li:nth-of-type(4) i {
+    transform: rotate(90deg);
+    background-color: rgb(0, 200, 0);
+    background-clip: text;
+    color: transparent;
+}
+
+.pop-up.one {
+    position: absolute;
+    left: -50%;
+    transform: translateY(-100%);
+}
+
+.pop-up.two {
+    position: absolute;
+    left: -25%;
+    transform: translateY(-100%);
+}
+
+#about-us li {
+    display: flex;
+    font-size: 3rem;
+    align-items: center;
+    transition: .7s;
+}
+
+#about-us li:hover {
+    cursor: pointer;
+    transform: translateY(25%);
+}
+
+@media (max-width: 1300px) {
+
+    #about-us li {
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 850px) {
+
+    .pop-up {
+        display: none;
+    }
+
+    #about-us li {
+        font-size: 1.5rem;
+    }
+
+    #about-us h2 {
+        font-size: 2.5rem;
+    }
+
+    #about-us p {
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media (max-width: 650px) {
+
+    #about-us li {
+        font-size: 1rem;
+    }
+
+    #about-us h2 {
+        font-size: 2rem;
+    }
+
+    #about-us p {
+        font-size: 1rem;
+    }
+    
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michailidis Tireshop</title>
+    <link rel="stylesheet" href="stylesForIndexHeader.css">
+    <link rel="stylesheet" href="stylesForSlideshow.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="stylesForHome.css">
+    <link rel="stylesheet" href="stylesForServices.css">
+    <link rel="stylesheet" href="stylesForBrands.css">
+    <link rel="stylesheet" href="stylesForAboutUs.css">
+    <link rel="stylesheet" href="stylesForFooter.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div id="logoDiv">
+            <img src="Logo dark.png" id="logo">
+        </div>
+
+        <div id="menuBtnDiv"><i id="menuBtn" class="fas fa-bars"></i></div>
+
+        <nav>
+
+            <div id="big-menu">
+                <ul class="header-ul">
+                    <li class="header-li"><a class="header-a" href="#home">Αρχική</a></li>
+                    <li class="header-li"><a class="header-a" href="#services">Υπηρεσίες</a></li>
+                    <li class="header-li"><a class="header-a" href="#brands">Μάρκες</a></li>
+                    <li class="header-li"><a class="header-a" href="#about-us">Σχετικά με εμάς</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+    </header>
+        
+    <div id="fixed">
+        <div id="small-menu" class="">
+            <ul class="header-ul">
+                <li class="header-li"><a class="header-a" href="#home">Αρχική</a></li>
+                <li class="header-li"><a class="header-a" href="#services">Υπηρεσίες</a></li>
+                <li class="header-li"><a class="header-a" href="#brands">Μάρκες</a></li>
+                <li class="header-li"><a class="header-a" href="#about-us">Σχετικά με εμάς</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="brake"></div>
+
+    <div class="slideshow">
+        <div class="slides">
+            <img class="slide" src="inside.jpg" alt="img #1">
+            <img class="slide" src="outside.jpg" alt="img #2">
+            <img class="slide" src="rims.jpg" alt="img #2">
+            <img class="slide" src="outside 2.jpg" alt="img #2">
+        </div>
+        <button class="previous" onclick="previousSlide()"><i class="fas fa-angle-left"></i></button>
+        <button class="next" onclick="nextSlide()"><i class="fas fa-angle-right"></i></button>
+    </div>
+
+    <div id="home">
+        <h1>ΑΡΧΙΚΗ</h1>
+        <h2><i class="far fa-clock home-i"></i>Μαζί σας από το <i>1989</i>.</h2>
+        <h3><i class="fas fa-certificate home-i" style="color: rgb(0, 81, 255)"></i>Η πολυετής <i>πείρα</i> μας στο χώρο του ελαστικού <i>εγγυάται</i> τη σωστή επιλογή και τοποθέτηση στο αυτοκίνητο σας.</h3>
+        <h3><i class="fas fa-map-marker-alt home-i" style="color: red"></i>Θα μας βρείτε <i>εδώ</i>:</h3>
+    </div>
+
+    <div id="g-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.292397562202!2d23.604036959214394!3d38.070521144355276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1a54e7feeb7ef%3A0x91dbce6581e0b49f!2zzpzOmc6nzpHOl86bzpnOlM6XzqMgzpPOlc6pzqHOky4gzprOqc6dzqPOpM6Rzp3OpM6Zzp3On86j!5e0!3m2!1sel!2sgr!4v1722073183087!5m2!1sel!2sgr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div id="services">
+        <h1>ΥΠΗΡΕΣΙΕΣ</h1>
+        <ul id="services-ul">
+            <li class="services-li"><span class="services-li-size">Wheel balance</span> (ζυγοστάθμιση)</li>
+            <li class="services-li"><span class="services-li-size">Tire plugs/patches</span> (μπαλώματα)</li>
+            <li class="services-li"><span class="services-li-size">Air check up</span> (τσεκάρισμα πίεσης αέρα)</li>
+            <li class="services-li"><span class="services-li-size">Rim <span class="services-gradient">painting</span></span> (<span class="services-gradient">βάψιμο</span> ζαντών)</li>
+        </ul>
+    </div>
+
+    <div id="brands">
+        <h1>ΜΑΡΚΕΣ<br><p>που συνεργαζόμαστε μαζί</p></h1>
+        <ul id="brands-ul-small" class="">
+            <a target="_blank" href="https://www.bridgestone.gr/content/bridgestone/gr/el/home-page.html"><li class="shown"><img src="brands/bridgestone.jpg">BRIDGESTONE</li></a>
+            <a target="_blank" href="https://www.goodyear.eu/el_gr/consumer.html"><li class="shown"><img src="brands/goodyear.jpg">GOODYEAR</li></a>
+            <a target="_blank" href="https://www.michelin.gr/?utm_source=googleads&utm_medium=paidsearch&utm_campaign=15978407275&gad_source=1&gclid=Cj0KCQjwzby1BhCQARIsAJ_0t5P1VfSzH3UdSmciJ1o1gJClcsvNBpehSSfhbeEEEugQXIlT0mc5rHAaAmMpEALw_wcB&gclsrc=aw.ds"><li class="shown"><img src="brands/michellin.png">MICHELIN</li></a>
+            <a target="_blank" href="https://www.pirelli.com/tyres/el-gr/car/homepage"><li class="shown"><img src="brands/pirelli.png">PIRELLI</li></a>
+            <a target="_blank" href="https://www.toyotires.gr/"><li class="shown"><img src="brands/toyo tires.png">TOYO TIRES</li></a>
+            <a target="_blank" href="https://www.falkentyre.com/en"><li class="shown"><img src="brands/falken.jpg">FALKEN</li></a>
+        </ul>
+        <ul id="brands-ul-big" class="">
+            <a target="_blank" href="https://www.bridgestone.gr/content/bridgestone/gr/el/home-page.html"><li><img src="brands/bridgestone.jpg">BRIDGESTONE</li></a>
+            <a target="_blank" href="https://www.goodyear.eu/el_gr/consumer.html"><li><img src="brands/goodyear.jpg">GOODYEAR</li></a>
+            <a target="_blank" href="https://www.michelin.gr/?utm_source=googleads&utm_medium=paidsearch&utm_campaign=15978407275&gad_source=1&gclid=Cj0KCQjwzby1BhCQARIsAJ_0t5P1VfSzH3UdSmciJ1o1gJClcsvNBpehSSfhbeEEEugQXIlT0mc5rHAaAmMpEALw_wcB&gclsrc=aw.ds"><li><img src="brands/michellin.png">MICHELIN</li></a>
+            <a target="_blank" href="https://www.pirelli.com/tyres/el-gr/car/homepage"><li><img src="brands/pirelli.png">PIRELLI</li></a>
+            <a target="_blank" href="https://www.toyotires.gr/"><li><img src="brands/toyo tires.png">TOYO TIRES</li></a>
+            <a target="_blank" href="https://www.falkentyre.com/en"><li><img src="brands/falken.jpg">FALKEN</li></a>
+            <a target="_blank" href="https://www.yokohama.eu/"><li><img src="brands/yokohama.png">YOKOHAMA</li></a>
+            <a target="_blank" href="https://www.continental-tires.com/gr/el/?gad_source=1&gclid=Cj0KCQjwzby1BhCQARIsAJ_0t5OfHUVQ4XNdDrjawfw3sFiSAryfBSqkYv8HZ2yakH_oxLPoZzofDxwaAtznEALw_wcB"><li><img src="brands/continental.png">CONTINENTAL</li></a>
+            <a target="_blank" href="https://www.kendatire.com/en-us/"><li><img src="brands/kenda tires.png">KENTA TIRES</li></a>
+            <a target="_blank" href="https://www.dunlop.eu/el_gr/consumer.html"><li><img src="brands/dunlop.png">DUNLOP</li></a>
+            <a target="_blank" href="https://www.sava-tires.com/el_gr/consumer.html"><li><img src="brands/sava.png">SAVA</li></a>
+            <a target="_blank" href=""><li><img src="brands/sumitomo tires.png">SUMITOMO TIRES</li></a>
+            <a target="_blank" href="https://leao-tyres.com/"><li><img src="brands/leao tire.png">LEAO TIRE</li></a>
+            <a target="_blank" href="https://infinitytyres.com/"><li><img src="brands/infinity.png">INFINITY</li></a>
+            <a target="_blank" href="https://www.firestonetire.com/"><li><img src="brands/firestone.png">FIRESTONE</li></a>
+            <a target="_blank" href="https://www.linglongtire.gr/"><li><img src="brands/linglong tire.png">LINGLONG TIRE</li></a>
+            <a target="_blank" href=""><li><img src="brands/tracmax.png">TRACMAX</li></a>
+            <a target="_blank" href="https://www.uniroyal-tyres.com/gr/el/car/"><li><img src="brands/uniroyal.png">UNIROYAL</li></a>
+            <a target="_blank" href="https://www.barum-tyres.com/"><li><img src="brands/barum.png">BARUM</li></a>
+            <a target="_blank" href=""><li><img src="brands/trazano.png">TRAZANO</li></a>
+        </ul>
+        <div id="show-all-div">
+            <a id="showAllBtn">
+                <p id="show-all-p">ΠΕΡΙΣΣΟΤΕΡΑ</p><i id="arrowIcon" class="fas fa-arrow-down"></i>
+            </a>
+        </div>
+    </div>
+
+    <div id="about-us">
+        <h1>ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ</h1>
+        <h2>Επικοινωνήστε για παραγγελίες</h2>
+        <p>Ενημερώστε μας για τα προϊόντα που θα θελατε να παραγγείλετε</p>
+        <ul>
+            <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100066587725400"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/mixailidis.tire.service/"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
+            <li><a target="_blank" href="mailto:kmichailidis21@gmail.com"><i class="fas fa-at"></i><span>E-mail</span></a><p class="pop-up one">kmichailidis21@gmail.com</p></li>
+            <li><a target="_blank" href="tel:+30-210-55-74-970"><i class="fas fa-phone"></i><span>Τηλέφωνο</span></a><p class="pop-up two">+30 210 55 74 970</p></li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>© 2024 Michailidis Tireshop</p>
+        <p>Created by Christopher Kotsalas</p>
+    </footer>
+
+    <!-- <div>
+        <form>
+            <input type="serach">
+        </form>
+    </div> -->
+
+    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.292397562202!2d23.604036959214394!3d38.070521144355276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1a54e7feeb7ef%3A0x91dbce6581e0b49f!2zzpzOmc6nzpHOl86bzpnOlM6XzqMgzpPOlc6pzqHOky4gzprOqc6dzqPOpM6Rzp3OpM6Zzp3On86j!5e0!3m2!1sel!2sgr!4v1722073183087!5m2!1sel!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+    
+    <script src="header.js"></script>
+    <script src="slideshow.js"></script>
+    <script src="brands.js"></script>
+
+</body>
+
+</html>
