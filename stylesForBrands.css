@@ -150,6 +150,7 @@
 
     #brands-ul-big li {
         width: 7vw;
+        min-width: 50px;
         height: 7vw;
         min-height: 150px;
         margin: 25px 7px;
