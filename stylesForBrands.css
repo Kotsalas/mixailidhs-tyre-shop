@@ -68,7 +68,7 @@
     text-align: center;
     width: 33.5vw;
     max-width: 305px;
-    min-width: 169px;
+    min-width: 150px;
     height: 33vw;
     max-height: 320px;
     margin: 0 10px 10px 10px;
@@ -149,7 +149,7 @@
 @media (max-width: 650px) {
 
     #brands-ul-big li {
-        width: 6vw;
+        width: 7vw;
         min-width: 50px;
         height: 7vw;
         min-height: 150px;
