@@ -68,7 +68,7 @@
     text-align: center;
     width: 33.5vw;
     max-width: 305px;
-    min-width: 163px;
+    min-width: 155px;
     height: 33vw;
     max-height: 320px;
     margin: 0 10px 10px 10px;
@@ -86,6 +86,7 @@
     max-height: 300px;
     min-height: 100px;
     padding-bottom: 10px;
+    overflow: hidden;
 }
 
 /* brands-ul-small goes to X(-100%) 
